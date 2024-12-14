@@ -17,9 +17,8 @@ const Navbar = ({ theme, toggleMode }) => {
 
   return (
     <nav
-      className={`sticky top-0 z-50 flex justify-between items-center p-6 ${
-        theme === 'light' ? 'bg-gray-100 text-black' : 'bg-slate-800 text-white'
-      }`}
+      className={`sticky top-0 z-50 flex justify-between items-center p-6 ${theme === 'light' ? 'bg-gray-100 text-black' : 'bg-slate-800 text-white'
+        }`}
     >
       {/* Branding */}
       <div className="flex items-center">
@@ -28,14 +27,13 @@ const Navbar = ({ theme, toggleMode }) => {
 
       {/* Navigation Links */}
       <motion.ul
-        initial={{ x:-100, scale: 0.95 }}
-        animate={{ x: isMenuOpen ? 0 : -100, scale: isMenuOpen ? 1 : 0.95 }}
+        initial={{ x: 100 }}
+        animate={{ x: isMenuOpen ? 0 : 100 }}
         transition={{ duration: 0.5 }}
-        className={`${
-          isMenuOpen
-            ? 'absolute top-20 left-0 right-0 bg-gray-800 text-white flex flex-col gap-4 text-2xl p-4 md:static md:flex md:flex-row md:gap-4'
-            : 'hidden'
-        } md:flex md:flex-row md:gap-4`}
+        className={`${isMenuOpen
+          ? 'absolute top-20 left-0 right-0 bg-gray-800 text-white flex flex-col gap-4 text-2xl p-4 md:static'
+          : 'hidden'
+          } md:flex md:flex-row md:gap-6 lg:text-3xl`}
       >
         <li>
           <a href="#home" onClick={handleLinkClick}>Home</a>

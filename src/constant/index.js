@@ -16,30 +16,35 @@ import emailIcon from '../assets/logos/email-icon.svg';
 import locationIcon from '../assets/logos/location-icon.svg';
 
 import project1 from "../assets/projects/project1.png";
-// import project2 from "../assets/projects/project-2.jpg";
-// import project3 from "../assets/projects/project-3.jpg";
-// import project4 from "../assets/projects/project-4.jpg";
+import project2 from "../assets/projects/project2.png";
+import project3 from "../assets/projects/project3.png";
+import project4 from "../assets/projects/project4.png";
+import project5 from "../assets/projects/project5.png";
 
 
 
 
-export const MY_SHORT_INTRO = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications.I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const MY_SHORT_INTRO = `I am an aspiring software engineer and B.Tech student specializing in Information Technology at AIET. Proficient in technologies like React, Flask, and Node.js, I focus on building scalable, user-centric web applications and robust software solutions. With a passion for learning and innovation, I aim to contribute to impactful projects in full-stack development and beyond.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications.I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a highly motivated and ambitious B.Tech student specializing in Information Technology at Arya Institute of Engineering & Technology (AIET). With a solid foundation in programming languages such as C, C++, and Python, along with web technologies like HTML, CSS, and JavaScript, and frameworks including React, Flask, and Node.js, I am dedicated to crafting innovative and efficient software solutions.
+
+My academic journey and hands-on project experience have honed my skills in front-end development, backend integration, and full-stack application design. Leveraging frameworks like React and Flask, I have successfully developed user-friendly, scalable, and impactful applications that address real-world challenges.
+
+In addition to my technical expertise, I am a proactive learner, problem solver, and collaborative team player. My passion for technology drives me to explore emerging tools and methodologies, with a keen interest in full-stack development and software engineering. I am committed to delivering excellence and contributing to meaningful projects that create a lasting impact.`;
 
 export const SKILLS_ICON = [
   { src: reactIcon, alt: "React Icon" },
-  { src: pythonIcon, alt: "Python Icon" },
-  { src: mysqlIcon, alt: "MySQL Icon" },
   { src: javascriptIcon, alt: "JavaScript Icon" },
+  { src: pythonIcon, alt: "Python Icon" },
   { src: flaskIcon, alt: "Flask Icon" },
+  { src: mysqlIcon, alt: "MySQL Icon" },
+  { src: nodejsIcon, alt: "Node.js Icon" },
   { src: mongoIcon, alt: "MongoDB Icon" },
   { src: cplusplusIcon, alt: "C++ Icon" },
   { src: cIcon, alt: "C Icon" },
+  { src: tailwindIcon, alt: "Tailwind Icon" },
   { src: htmlIcon, alt: "HTML5 Icon" },
   { src: cssIcon, alt: "CSS3 Icon" },
-  { src: tailwindIcon, alt: "Tailwind Icon" },
-  { src: nodejsIcon, alt: "Node.js Icon" },
   { src: bootstrapIcon, alt: "Bootstrap Icon" },
 ];
 
@@ -76,32 +81,39 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "NewsApp",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "NewsApp is a responsive platform offering personalized news updates across categories like technology, sports, and entertainment, ensuring seamless browsing and timely information.",
+    technologies: ["Bootstrap","React", "Node.js"],
   },
   {
-    title: "Task Management App",
-    image: project1,
+    title: "My_Notebook",
+    image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    technologies: ["HTML", "CSS","Bootstrap", "Express", "MongoDB"],
   },
   {
-    title: "Portfolio Website",
-    image: project1,
+    title: "TextAnalyzer",
+    image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "Text Analyzer is a versatile tool that counts letters and words, converts text between lowercase and uppercase, copies text, and formats it effortlessly.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
     title: "Blogging Platform",
-    image: project1,
+    image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["HTML", "CSS", "Python", "Flask", "MySql"],
+  },
+  {
+    title: "Netflix landing page",
+    image: project5,
+    description:
+      "Netflix's landing page features a clean, user-friendly interface with intuitive navigation, eye-catching visuals.",
+    technologies: ["HTML", "CSS"],
   },
 ];
 

@@ -6,10 +6,10 @@ import { motion } from 'framer-motion';
 const About = () => {
     return (
         <section id="about" className="mt-12 scroll-mt-40">
-            <h1 className="bg-gradient-to-r from-red-900 via-slate-500 to-purple-500 bg-clip-text md:leading-tight text-5xl md:text-7xl tracking-tight text-transparent text-center my-20">
+            <h1 className="bg-gradient-to-r from-purple-950 via-slate-500 to-blue-950 bg-clip-text leading-snug md:leading-snug text-5xl md:text-7xl tracking-tight text-transparent text-center my-20">
                 About Me
             </h1>
-            <div className="flex flex-col md:flex-row items-center lg:items-start gap-8">
+            <div className="flex flex-col md:flex-row items-center gap-8">
                 {/* Left Section */}
                 <motion.div
                     whileInView={{ opacity: 1, x: 0 }}
@@ -34,7 +34,7 @@ const About = () => {
                     className="w-full lg:w-1/2"
                 >
                     <div className="flex justify-center lg:justify-start">
-                        <p className="my-2 max-w-xl py-6 text-gray-700 text-center lg:text-left">
+                        <p className="my-2 max-w-xl py-6 text-gray-700 text-justify">
                             {ABOUT_TEXT}
                         </p>
                     </div>

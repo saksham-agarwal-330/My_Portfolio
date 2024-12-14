@@ -9,7 +9,7 @@ const Project = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 1 }}
-                className="bg-gradient-to-r from-red-900 via-slate-500 to-purple-500 bg-clip-text md:leading-tight text-5xl md:text-7xl tracking-tight text-transparent text-center my-20">
+                className="bg-gradient-to-r from-purple-950 via-slate-500 to-blue-950 bg-clip-text leading-normal md:leading-snug text-5xl md:text-7xl tracking-tight text-transparent text-center my-20">
                 Projects
             </motion.h1>
             <div className="space-y-8 sm:space-y-12">
@@ -40,7 +40,7 @@ const Project = () => {
                                 {project.technologies.map((tech, techIndex) => (
                                     <span
                                         key={techIndex}
-                                        className="text-transparent bg-gradient-to-r from-purple-800 via-slate-500 to-pink-500 bg-clip-text text-sm mr-2 mb-2"
+                                        className="text-transparent bg-gradient-to-r from-purple-900 via-slate-500 to-blue-800 bg-clip-text text-sm mr-2 mb-2"
                                     >
                                         {tech}
                                     </span>

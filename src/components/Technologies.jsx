@@ -8,7 +8,7 @@ const Technologies = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 1 }}
-                className="bg-gradient-to-r from-red-900 via-slate-500 to-purple-500 bg-clip-text md:leading-tight text-4xl md:text-7xl tracking-tight text-transparent text-center my-20">
+                className="bg-gradient-to-r from-purple-950 via-slate-500 to-blue-950 bg-clip-text leading-snug md:leading-snug text-4xl md:text-7xl tracking-tight text-transparent text-center my-20">
                 Technologies
             </motion.h1>
 

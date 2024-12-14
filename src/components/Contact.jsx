@@ -35,7 +35,7 @@ const Contact = (props) => {
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 1 }}
-                className="bg-gradient-to-r from-red-900 via-slate-500 to-purple-500 bg-clip-text md:leading-tight text-5xl md:text-7xl tracking-tight text-transparent text-center my-20 ">
+                className="bg-gradient-to-r from-purple-950 via-slate-500 to-blue-950 bg-clip-text leading-snug md:leading-snug text-5xl md:text-7xl tracking-tight text-transparent text-center my-20 ">
                 Get in touch
             </motion.h1>
             <div className="flex flex-col gap-10 sm:flex-row">
@@ -44,7 +44,7 @@ const Contact = (props) => {
                     initial={{ opacity: 0, x: -100 }}
                     transition={{ duration: 0.5 }}
                     className="flex flex-col gap-4 pt-8 sm:pt-0 md:pt-8">
-                    <h2 className='bg-gradient-to-r from-purple-800 via-slate-500 to-pink-500 bg-clip-text text-3xl tracking-tight text-transparent'>Let's talk</h2>
+                    <h2 className='bg-gradient-to-r from-purple-950 via-slate-500 to-blue-950 bg-clip-text text-3xl tracking-tight text-transparent'>Let's talk</h2>
                     <p className='text-xl max-w-xl'>
                         I'm currently available to take on new projects, so feel free to send me a message about anything that you want me to work on. You can contact me anytime.
                     </p>
@@ -87,7 +87,7 @@ const Contact = (props) => {
                         ></textarea>
                         <button
                             type="submit"
-                            className="w-full py-3 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-400 text-white rounded-lg hover:bg-purple-600 transition"
+                            className="w-full py-3 bg-gradient-to-r from-gray-600 via-neutral-500 to-blue-950 text-white rounded-lg hover:bg-purple-600 transition"
                             disabled={loading}
                         >
                             {loading ? 'Sending...' : 'Send Message'}
